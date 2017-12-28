@@ -5,7 +5,7 @@
 
 This repository contains the necessary files to create a *dockerized* version of cowrie.
 
-This dockerized version is part of the **[Multi-Honeypots]** of Deutsche Telekom AG.
+This dockerized version is part of the **[Multi-Honeypots]** of douwanhu.
 
 The `Dockerfile` contains the blueprint for the dockerized cowrie and will be used to setup the docker image.  
 
