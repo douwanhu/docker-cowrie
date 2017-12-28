@@ -5,13 +5,13 @@
 
 This repository contains the necessary files to create a *dockerized* version of cowrie.
 
-This dockerized version is part of the **[T-Pot community honeypot](http://dtag-dev-sec.github.io/)** of Deutsche Telekom AG.
+This dockerized version is part of the **[Multi-Honeypots]** of Deutsche Telekom AG.
 
 The `Dockerfile` contains the blueprint for the dockerized cowrie and will be used to setup the docker image.  
 
-The `cowrie.cfg` is tailored to fit the T-Pot environment.
+The `cowrie.cfg` is tailored to fit the Multi-Honeypots environment.
 
-The `setup.sql` is also tailored to fit the T-Pot environment.
+The `setup.sql` is also tailored to fit the Multi-Honeypots environment.
 
 The `supervisord.conf` is used to start cowrie under supervision of supervisord.
 
@@ -29,4 +29,4 @@ By default all data will be stored in `/data/cowrie/` until the honeypot service
 
 # Cowrie Dashboard
 
-![Cowrie Dashboard](https://raw.githubusercontent.com/dtag-dev-sec/cowrie/master/doc/dashboard.png)
+![Cowrie Dashboard](https://raw.githubusercontent.com/douwanhu/docker-cowrie/master/doc/dashboard.png)
